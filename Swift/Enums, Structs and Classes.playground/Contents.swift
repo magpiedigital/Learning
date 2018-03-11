@@ -42,3 +42,26 @@ CSSColor.named(.blue)
 enum Math {
     static let phi = 1.6180339887498948482 // golden mean
 }
+
+protocol Drawable {
+    func draw(with context: DrawingContext)
+}
+
+protocol DrawingContext {
+    func draw(circle: Circle)
+    // more primitives will go here ...
+}
+
+struct Circle : Drawable {
+    var strokeWidth = 5
+    var strokeColor = CSSColor.named(.red)
+    var fillColor = CSSColor.named(.yellow)
+    var center = (x: 80.0, y: 160.0)
+    var radius = 60.0
+    
+    // Adopting the Drawable protocol.
+    func draw(with context: DrawingContext) {
+        context.draw(circle: self)
+    }
+    
+}
