@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		173666AB20518DE2000B3251 /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173666AA20518DE2000B3251 /* LibraryAPI.swift */; };
 		173666AD20518EB1000B3251 /* PersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173666AC20518EB1000B3251 /* PersistencyManager.swift */; };
+		17811F6A2057DC0C00014118 /* HorizontalScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17811F692057DC0C00014118 /* HorizontalScrollerView.swift */; };
+		17811F6D2057F2D800014118 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17811F6C2057F2D800014118 /* NotificationExtension.swift */; };
+		17811F6F2057FCEF00014118 /* albums.json in Resources */ = {isa = PBXBuildFile; fileRef = 17811F6E2057FCEF00014118 /* albums.json */; };
 		79F6FC411F14251800E22ED5 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F6FC401F14251800E22ED5 /* Album.swift */; };
 		79F6FC431F14254E00E22ED5 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F6FC421F14254E00E22ED5 /* AlbumView.swift */; };
 		EDDF66161EBD28EF006123DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDF66151EBD28EF006123DA /* AppDelegate.swift */; };
@@ -22,6 +25,9 @@
 /* Begin PBXFileReference section */
 		173666AA20518DE2000B3251 /* LibraryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAPI.swift; sourceTree = "<group>"; };
 		173666AC20518EB1000B3251 /* PersistencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistencyManager.swift; sourceTree = "<group>"; };
+		17811F692057DC0C00014118 /* HorizontalScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollerView.swift; sourceTree = "<group>"; };
+		17811F6C2057F2D800014118 /* NotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
+		17811F6E2057FCEF00014118 /* albums.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = albums.json; sourceTree = "<group>"; };
 		79F6FC401F14251800E22ED5 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		79F6FC421F14254E00E22ED5 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
 		EDDF66121EBD28EF006123DA /* RWBlueLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWBlueLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				79F6FC421F14254E00E22ED5 /* AlbumView.swift */,
+				17811F692057DC0C00014118 /* HorizontalScrollerView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -67,6 +74,14 @@
 				EDDF66171EBD28EF006123DA /* ViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		17811F6B2057F2B600014118 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				17811F6C2057F2D800014118 /* NotificationExtension.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 		EDDF66091EBD28EF006123DA = {
@@ -95,9 +110,11 @@
 				173666A820518CFB000B3251 /* View */,
 				173666A920518D01000B3251 /* Controller */,
 				EDDF66351EBD2B5F006123DA /* API */,
+				17811F6B2057F2B600014118 /* Extension */,
 				EDDF66191EBD28EF006123DA /* Main.storyboard */,
 				EDDF661C1EBD28EF006123DA /* Assets.xcassets */,
 				EDDF66211EBD28EF006123DA /* Info.plist */,
+				17811F6E2057FCEF00014118 /* albums.json */,
 				EDDF661E1EBD28EF006123DA /* LaunchScreen.storyboard */,
 			);
 			path = RWBlueLibrary;
@@ -176,6 +193,7 @@
 				EDDF66201EBD28EF006123DA /* LaunchScreen.storyboard in Resources */,
 				EDDF661D1EBD28EF006123DA /* Assets.xcassets in Resources */,
 				EDDF661B1EBD28EF006123DA /* Main.storyboard in Resources */,
+				17811F6F2057FCEF00014118 /* albums.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +206,8 @@
 			files = (
 				EDDF66181EBD28EF006123DA /* ViewController.swift in Sources */,
 				EDDF66371EBD2B8C006123DA /* HTTPClient.swift in Sources */,
+				17811F6A2057DC0C00014118 /* HorizontalScrollerView.swift in Sources */,
+				17811F6D2057F2D800014118 /* NotificationExtension.swift in Sources */,
 				173666AB20518DE2000B3251 /* LibraryAPI.swift in Sources */,
 				EDDF66161EBD28EF006123DA /* AppDelegate.swift in Sources */,
 				79F6FC431F14254E00E22ED5 /* AlbumView.swift in Sources */,
