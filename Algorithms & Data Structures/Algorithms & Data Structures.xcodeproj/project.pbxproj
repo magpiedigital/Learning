@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		176787DF2085DDC90059B923 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176787DE2085DDC90059B923 /* main.swift */; };
+		176787E62085EBCE0059B923 /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176787E52085EBCE0059B923 /* LinearSearch.swift */; };
+		176787E82085EC160059B923 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176787E72085EC160059B923 /* FizzBuzz.swift */; };
+		176787EA2085EC2F0059B923 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176787E92085EC2F0059B923 /* BinarySearch.swift */; };
+		176787EC2085EC4A0059B923 /* MostCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176787EB2085EC4A0059B923 /* MostCommon.swift */; };
+		176787EE2085EC780059B923 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176787ED2085EC780059B923 /* Factorial.swift */; };
+		176787F02085EC8C0059B923 /* RecursiveFactorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176787EF2085EC8C0059B923 /* RecursiveFactorial.swift */; };
+		176787F22085ECAC0059B923 /* ReverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176787F12085ECAC0059B923 /* ReverseWords.swift */; };
+		176787F42085ECBF0059B923 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176787F32085ECBF0059B923 /* Fibonacci.swift */; };
+		176787F62085ECDB0059B923 /* RecursiveFibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176787F52085ECDA0059B923 /* RecursiveFibonacci.swift */; };
+		176787F82085ECFD0059B923 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176787F72085ECFD0059B923 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,16 @@
 /* Begin PBXFileReference section */
 		176787DB2085DDC90059B923 /* Algorithms & Data Structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithms & Data Structures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		176787DE2085DDC90059B923 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		176787E52085EBCE0059B923 /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
+		176787E72085EC160059B923 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		176787E92085EC2F0059B923 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		176787EB2085EC4A0059B923 /* MostCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostCommon.swift; sourceTree = "<group>"; };
+		176787ED2085EC780059B923 /* Factorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factorial.swift; sourceTree = "<group>"; };
+		176787EF2085EC8C0059B923 /* RecursiveFactorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveFactorial.swift; sourceTree = "<group>"; };
+		176787F12085ECAC0059B923 /* ReverseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWords.swift; sourceTree = "<group>"; };
+		176787F32085ECBF0059B923 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		176787F52085ECDA0059B923 /* RecursiveFibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveFibonacci.swift; sourceTree = "<group>"; };
+		176787F72085ECFD0059B923 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,16 @@
 			isa = PBXGroup;
 			children = (
 				176787DE2085DDC90059B923 /* main.swift */,
+				176787E72085EC160059B923 /* FizzBuzz.swift */,
+				176787E52085EBCE0059B923 /* LinearSearch.swift */,
+				176787E92085EC2F0059B923 /* BinarySearch.swift */,
+				176787F12085ECAC0059B923 /* ReverseWords.swift */,
+				176787EF2085EC8C0059B923 /* RecursiveFactorial.swift */,
+				176787ED2085EC780059B923 /* Factorial.swift */,
+				176787EB2085EC4A0059B923 /* MostCommon.swift */,
+				176787F32085ECBF0059B923 /* Fibonacci.swift */,
+				176787F52085ECDA0059B923 /* RecursiveFibonacci.swift */,
+				176787F72085ECFD0059B923 /* Stack.swift */,
 			);
 			path = "Algorithms & Data Structures";
 			sourceTree = "<group>";
@@ -119,7 +149,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176787F22085ECAC0059B923 /* ReverseWords.swift in Sources */,
+				176787F62085ECDB0059B923 /* RecursiveFibonacci.swift in Sources */,
+				176787E82085EC160059B923 /* FizzBuzz.swift in Sources */,
+				176787F42085ECBF0059B923 /* Fibonacci.swift in Sources */,
+				176787EA2085EC2F0059B923 /* BinarySearch.swift in Sources */,
+				176787F82085ECFD0059B923 /* Stack.swift in Sources */,
+				176787EC2085EC4A0059B923 /* MostCommon.swift in Sources */,
+				176787F02085EC8C0059B923 /* RecursiveFactorial.swift in Sources */,
+				176787EE2085EC780059B923 /* Factorial.swift in Sources */,
 				176787DF2085DDC90059B923 /* main.swift in Sources */,
+				176787E62085EBCE0059B923 /* LinearSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
